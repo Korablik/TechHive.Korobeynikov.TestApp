@@ -20,4 +20,5 @@ Create a Net6.0 Solution with the relevant projects for the below requirements.
   - Create a client console Application to test the GameServer APIs.
     
 Use the Serilog library to effectively log both Server and Client. 
+
 Make sure to use a clean and highly professional attitude when preparing this Solution.
