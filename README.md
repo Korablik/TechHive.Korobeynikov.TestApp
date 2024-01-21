@@ -19,5 +19,5 @@ Create a Net6.0 Solution with the relevant projects for the below requirements.
   - Player state can be saved in Ram or Sqlite.
   - Create a client console Application to test the GameServer APIs.
     
-Use the Serilog library to effectively log both Server and Client.
+Use the Serilog library to effectively log both Server and Client. 
 Make sure to use a clean and highly professional attitude when preparing this Solution.
