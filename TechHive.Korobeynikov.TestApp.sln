@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Server", "..\TechHive.Korobeynikov.TestApp.Server\TechHive.Korobeynikov.TestApp.Server.csproj", "{C5DCE8A2-20E7-428A-9DB6-D7AA96CF0A9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Infrastructure", "..\TechHive.Korobeynikov.TestApp.Infrastructure\TechHive.Korobeynikov.TestApp.Infrastructure.csproj", "{9F41BFEA-2A87-436C-A2DA-FC7EB3C6E187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Console", "..\TechHive.Korobeynikov.TestApp.Console\TechHive.Korobeynikov.TestApp.Console.csproj", "{4A80BE96-E33C-4159-ABBF-7753C11A7328}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Models", "..\TechHive.Korobeynikov.TestApp.Models\TechHive.Korobeynikov.TestApp.Models.csproj", "{1F834C97-30AB-4A9E-BDE7-BF7FC962B712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechHive.Korobeynikov.TestApp.MemoryCache", "TechHive.Korobeynikov.TestApp.MemoryCache\TechHive.Korobeynikov.TestApp.MemoryCache.csproj", "{1CAFB229-55BC-4DEB-8711-CB401FA3B305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5DCE8A2-20E7-428A-9DB6-D7AA96CF0A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DCE8A2-20E7-428A-9DB6-D7AA96CF0A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DCE8A2-20E7-428A-9DB6-D7AA96CF0A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DCE8A2-20E7-428A-9DB6-D7AA96CF0A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F41BFEA-2A87-436C-A2DA-FC7EB3C6E187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F41BFEA-2A87-436C-A2DA-FC7EB3C6E187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F41BFEA-2A87-436C-A2DA-FC7EB3C6E187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F41BFEA-2A87-436C-A2DA-FC7EB3C6E187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A80BE96-E33C-4159-ABBF-7753C11A7328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A80BE96-E33C-4159-ABBF-7753C11A7328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A80BE96-E33C-4159-ABBF-7753C11A7328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A80BE96-E33C-4159-ABBF-7753C11A7328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F834C97-30AB-4A9E-BDE7-BF7FC962B712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F834C97-30AB-4A9E-BDE7-BF7FC962B712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F834C97-30AB-4A9E-BDE7-BF7FC962B712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F834C97-30AB-4A9E-BDE7-BF7FC962B712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0CF25C0-C76F-4C03-BBF9-B5DE36E50769}
+	EndGlobalSection
+EndGlobal
