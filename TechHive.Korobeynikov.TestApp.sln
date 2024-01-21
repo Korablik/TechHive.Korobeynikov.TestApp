@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechHive.Korobeynikov.TestApp.MemoryCache", "TechHive.Korobeynikov.TestApp.MemoryCache\TechHive.Korobeynikov.TestApp.MemoryCache.csproj", "{1CAFB229-55BC-4DEB-8711-CB401FA3B305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechHive.Korobeynikov.TestApp.BL", "TechHive.Korobeynikov.TestApp.BL\TechHive.Korobeynikov.TestApp.BL.csproj", "{5171427E-7419-4239-B36B-8EAC0ED620C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechHive.Korobeynikov.TestApp.Sqlite", "TechHive.Korobeynikov.TestApp.Sqlite\TechHive.Korobeynikov.TestApp.Sqlite.csproj", "{0C5E9145-C161-4282-A4C1-BAE1FB1DED69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAFB229-55BC-4DEB-8711-CB401FA3B305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5171427E-7419-4239-B36B-8EAC0ED620C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5171427E-7419-4239-B36B-8EAC0ED620C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5171427E-7419-4239-B36B-8EAC0ED620C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5171427E-7419-4239-B36B-8EAC0ED620C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5E9145-C161-4282-A4C1-BAE1FB1DED69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5E9145-C161-4282-A4C1-BAE1FB1DED69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5E9145-C161-4282-A4C1-BAE1FB1DED69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5E9145-C161-4282-A4C1-BAE1FB1DED69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
