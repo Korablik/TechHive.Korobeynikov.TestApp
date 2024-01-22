@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog" Version="3.1.2-dev-02097" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\TechHive.Korobeynikov.TestApp.Models\TechHive.Korobeynikov.TestApp.Models.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.34" />
+    <PackageReference Include="System.Text.Json" Version="8.0.1" />
   </ItemGroup>
 
 </Project>
