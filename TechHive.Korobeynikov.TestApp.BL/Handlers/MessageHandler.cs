@@ -163,7 +163,7 @@ namespace TechHive.Korobeynikov.TestApp.BL.Handlers
             }
             _player.Resources.Add(coins);
 
-            var rolls = (ResourceDTO?)_storage?.TryGetValue($"{_player.PlayerId}-{EResourceType.Coins}");
+            var rolls = (ResourceDTO?)_storage?.TryGetValue($"{_player.PlayerId}-{EResourceType.Rolls}");
             if (rolls == null)
             {
                 rolls = new ResourceDTO() { Type = EResourceType.Rolls, Value = 0 };

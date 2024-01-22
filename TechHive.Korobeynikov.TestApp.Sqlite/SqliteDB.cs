@@ -50,20 +50,20 @@ public class SqliteDB : IDB
             using (SQLiteCommand command = new SQLiteCommand(connection))
             {
                 command.CommandText = "SELECT * FROM Players WHERE UDID = @UDID";
-                command.Parameters.AddWithValue("@UDID", udid);
+                command.Parameters.AddWithValue("@UDID", udid.ToString());
                 using (SQLiteDataReader reader = command.ExecuteReader())
                 {
                     if (reader.HasRows)
                     { 
                         player = new Player();
-                        player.UDIDs.Add(udid);
-                    }
-
-                    while (reader.Read())
-                    {
-                        var _id = reader["PlayerId"]?.ToString();
-                        if (!string.IsNullOrEmpty(_id))
-                            player.Id = Guid.Parse(_id);
+                        player.UDIDs.Add(udid); 
+                        
+                        while (reader.Read())
+                        {
+                            var _id = reader.GetString(1);
+                            if (!string.IsNullOrEmpty(_id))
+                                player.Id = Guid.Parse(_id);
+                        }
                     }
                 }
             }
