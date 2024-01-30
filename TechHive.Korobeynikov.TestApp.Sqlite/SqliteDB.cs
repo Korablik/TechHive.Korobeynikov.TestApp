@@ -2,12 +2,12 @@
 using TechHive.Korobeynikov.TestApp.Models.Contracts;
 using TechHive.Korobeynikov.TestApp.Models.Entities;
 
-namespace TechHive.Korobeynikov.TestApp.Sqlite;
+namespace TechHive.Korobeynikov.TestApp.SQLite;
 
-public class SqliteDB : IDB
+public class SQLiteDB : IDB
 {
     private readonly string _connectionString;
-    public SqliteDB(string connectionString)
+    public SQLiteDB(string connectionString)
     {
         _connectionString = connectionString;
         Seed();

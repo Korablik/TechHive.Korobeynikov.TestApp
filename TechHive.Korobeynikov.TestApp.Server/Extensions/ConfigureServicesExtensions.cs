@@ -3,7 +3,7 @@ using TechHive.Korobeynikov.TestApp.BL.Handlers;
 using TechHive.Korobeynikov.TestApp.Infrastructure.Managers;
 using TechHive.Korobeynikov.TestApp.MemoryCache;
 using TechHive.Korobeynikov.TestApp.Models.Contracts;
-using TechHive.Korobeynikov.TestApp.Sqlite;
+using TechHive.Korobeynikov.TestApp.SQLite;
 
 namespace TechHive.Korobeynikov.TestApp.Server.Extensions;
 
@@ -23,7 +23,7 @@ public static class ConfigureServicesExtensions
 
         services.AddTransient<IStorage, MemoryCacheStorage>();
 
-        services.AddTransient<IDB>(_ => new SqliteDB(config.GetValue<string>("AppSettings:ConnectionString")));
+        services.AddTransient<IDB>(_ => new SQLiteDB(config.GetValue<string>("AppSettings:ConnectionString")));
         
         services.AddTransient<IWebSocketManager>(_ => new WebSocketsManager(config.GetValue<short>("AppSettings:ReceiveBufferSize")));
         services.AddTransient<IMessageHandler, MessageHandler>();
