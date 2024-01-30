@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Server", "TechHive.Korobeynikov.TestApp.Server\TechHive.Korobeynikov.TestApp.Server.csproj", "{CA290774-ED0B-4F34-B0C3-ECF491F0C55F}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.MemoryCache", "TechHive.Korobeynikov.TestApp.MemoryCache\TechHive.Korobeynikov.TestApp.MemoryCache.csproj", "{1CAFB229-55BC-4DEB-8711-CB401FA3B305}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.BL", "TechHive.Korobeynikov.TestApp.BL\TechHive.Korobeynikov.TestApp.BL.csproj", "{5171427E-7419-4239-B36B-8EAC0ED620C3}"
@@ -14,8 +16,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Infrastructure", "TechHive.Korobeynikov.TestApp.Infrastructure\TechHive.Korobeynikov.TestApp.Infrastructure.csproj", "{BC6182EE-1861-40CE-9DAF-A47BBE5375E4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Models", "TechHive.Korobeynikov.TestApp.Models\TechHive.Korobeynikov.TestApp.Models.csproj", "{6EE18148-E730-4863-989F-5FE5006A5C2E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechHive.Korobeynikov.TestApp.Server", "TechHive.Korobeynikov.TestApp.Server\TechHive.Korobeynikov.TestApp.Server.csproj", "{CA290774-ED0B-4F34-B0C3-ECF491F0C55F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
